@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InputTypeTest</string>
+    <string name="text_keyboard_test">Input Type Test</string>
+    <string name="hint_name">name</string>
+    <string name="hint_password">password</string>
+    <string name="hint_number_password">number password</string>
+    <string name="hint_email">email</string>
+    <string name="hint_phone">phone</string>
+    <string name="hint_postal_address">postal address</string>
+    <string name="hint_time">time</string>
+    <string name="hint_date">date</string>
+    <string name="hint_no_suggestions">no suggestions</string>
+</resources>
