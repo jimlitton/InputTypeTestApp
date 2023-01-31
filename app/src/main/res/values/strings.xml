@@ -2,6 +2,7 @@
     <string name="app_name">InputTypeTest</string>
     <string name="text_keyboard_test">Input Type Test</string>
     <string name="hint_name">name</string>
+    <string name="hint_text_multi_line">text multi line</string>
     <string name="hint_password">password</string>
     <string name="hint_number_password">number password</string>
     <string name="hint_email">email</string>
