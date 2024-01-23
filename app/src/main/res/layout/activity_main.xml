@@ -13,6 +13,53 @@
         tools:context=".MainActivity">
 
         <EditText
+            android:id="@+id/editTextNoType"
+            android:layout_width="@dimen/dp_fill_container"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_no_type"
+            android:minHeight="@dimen/db_min_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="@dimen/dp_fill_container"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="@dimen/db_min_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNoType" />
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            android:layout_width="@dimen/dp_fill_container"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_email_subject"
+            android:inputType="textEmailSubject"
+            android:minHeight="@dimen/db_min_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAddress" />
+
+        <EditText
+            android:id="@+id/editTextShortMessage"
+            android:layout_width="@dimen/dp_fill_container"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_short_message"
+            android:inputType="textShortMessage"
+            android:minHeight="@dimen/db_min_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextSubject" />
+
+        <EditText
             android:id="@+id/editTextPersonName"
             android:layout_width="@dimen/dp_fill_container"
             android:layout_height="wrap_content"
@@ -22,7 +69,7 @@
             android:minHeight="@dimen/db_min_height"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextShortMessage" />
 
         <EditText
             android:id="@+id/editTextArea"
@@ -63,17 +110,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
-        <EditText
-            android:id="@+id/editTextEmailAddress"
-            android:layout_width="@dimen/dp_fill_container"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/hint_email"
-            android:inputType="textEmailAddress"
-            android:minHeight="@dimen/db_min_height"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
 
         <EditText
             android:id="@+id/editTextPhone"
@@ -86,7 +122,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
 
         <EditText
             android:id="@+id/editTextPostalAddress"
@@ -132,7 +168,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/hint_no_suggestions"
-            android:inputType="textNoSuggestions|textVisiblePassword"
+            android:inputType="textNoSuggestions"
             android:minHeight="@dimen/db_min_height"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

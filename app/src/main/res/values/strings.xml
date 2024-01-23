@@ -1,14 +1,17 @@
 <resources>
     <string name="app_name">InputTypeTest</string>
     <string name="text_keyboard_test">Input Type Test</string>
-    <string name="hint_name">name</string>
+    <string name="hint_no_type">no type</string>
+    <string name="hint_name">person name</string>
     <string name="hint_text_multi_line">text multi line</string>
     <string name="hint_password">password</string>
     <string name="hint_number_password">number password</string>
-    <string name="hint_email">email</string>
     <string name="hint_phone">phone</string>
     <string name="hint_postal_address">postal address</string>
     <string name="hint_time">time</string>
     <string name="hint_date">date</string>
     <string name="hint_no_suggestions">no suggestions</string>
+    <string name="hint_email">email address</string>
+    <string name="hint_email_subject">email subject</string>
+    <string name="hint_short_message">short message</string>
 </resources>
