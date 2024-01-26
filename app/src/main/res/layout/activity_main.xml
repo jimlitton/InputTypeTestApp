@@ -24,6 +24,18 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:id="@+id/editTextUri"
+            android:layout_width="@dimen/dp_fill_container"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_uri"
+            android:inputType="textUri"
+            android:minHeight="@dimen/db_min_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNoType" />
+
+        <EditText
             android:id="@+id/editTextAddress"
             android:layout_width="@dimen/dp_fill_container"
             android:layout_height="wrap_content"
@@ -33,7 +45,7 @@
             android:minHeight="@dimen/db_min_height"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNoType" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextUri" />
 
         <EditText
             android:id="@+id/editTextSubject"

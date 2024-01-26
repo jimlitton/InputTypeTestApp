@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="db_min_height">48dp</dimen>
-    <dimen name="app_padding">16dp</dimen>
+    <dimen name="db_min_height">46dp</dimen>
+    <dimen name="app_padding">10dp</dimen>
     <dimen name="dp_fill_container">0dp</dimen>
 </resources>
